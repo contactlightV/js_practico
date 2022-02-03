@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras geometricas</h1>
+    </header>
+    
+    <section>
+        <h2>Encontrar el perimetro y el area de un cuadrado.</h2>
+        
+        <form>
+            <label for="sides">
+                Cuanto miden los lados del cuadrado?
+                <input type="number" id="InputCuadrado">
+            </label>
+
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Encuentra el perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Encuentra el area
+            </button>
+        </form>
+    </section>
+        
+    <section>
+        <h2>Encontrar la altura del triangulo isosceles.</h2>
+        
+        <form>
+            <label for="sides">
+                Cuanto miden los lados del triangulo?
+                <input type="number" id="InputLado1">
+            </label>
+            <label for="sides">
+                <input type="number" id="InputLado2">
+            </label>
+            <label for="sides">
+                Cuanto mide la base del triangulo?
+                <input type="number" id="InputBase">
+            </label>
+
+            <button type="button" onclick="calcularAlturaTriangulo()">
+                Encuentra la altura
+            </button>
+        </form>
+    </section>
+    <script src="figuras.js"></script>
+</body>
+</html>
